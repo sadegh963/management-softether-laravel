@@ -1,0 +1,22 @@
+{
+	"name": "sadegh963/management-softether-laravel",
+	"homepage": "https://github.com/sadegh963/management-softether-laravel",
+	"description": "management softether vpn for laravel",
+	"type": "library",
+	"keywords": ["SoftEhter", "vpn", "laravel"],
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "sadegh963",
+            "email": "sad3gh21@gmail.com"
+        }
+	],
+	"require": {
+        "php": "^7.2.5|^8.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "SoftEtherApi\\": "src/"
+        }
+	}
+}

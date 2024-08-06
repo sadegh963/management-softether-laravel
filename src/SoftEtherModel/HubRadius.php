@@ -1,0 +1,14 @@
+<?php
+	declare(strict_types=1);
+
+	namespace SoftEtherApi\SoftEtherModel;
+
+	use SoftEtherApi\Model\BaseSoftEtherModel;
+
+	class HubRadius extends BaseSoftEtherModel {
+		public $HubName;
+		public $RadiusPort;
+		public $RadiusRetryInterval;
+		public $RadiusSecret;
+		public $RadiusServerName;
+	}
